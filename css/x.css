@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.geral{
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+   
+}
+.geral2{
+    padding: 9px;
+}
+.foto img{
+    width: 20%;
+    border-radius: 50%;
+}
+.priInfo h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.priInfo h1:hover{
+    color:yellowgreen;
+    transition: 2s;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+nav ul {
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 139%;
+    padding: 10px;
+    color: blueviolet;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul::after{
+    background-color: yellowgreen;
+    width: 100%;
+    border-radius: 10px;
+    transition: 8s;
+}
+nav ul:hover{
+    background-color: yellowgreen;
+    transition: 1s;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.conteiner p{
+    align-items: baseline;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    color: rgb(49, 44, 44);
+}
